@@ -1,0 +1,71 @@
+#timer {
+    color: rgba(0, 0, 0, 0.782);
+    font-size: 170px;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    text-align: center;
+    margin-bottom: 20px;
+}
+body{
+    background-image: url(1.png);
+    background-size: 100%;
+    background-repeat: no-repeat;
+    padding: 100px;
+}
+
+.header{
+    /* display: block; */
+    line-height: 75px;
+    color: rgb(0, 0, 0);
+    background-color: rgba(255, 255, 255, 0.5);
+    text-align: center;
+    font-size: 50px;
+    /* padding-top: 60px; */
+    /* padding-bottom: 30px; */
+    margin: auto;
+    width: 32%;
+    height: 75px;
+    border-radius: 25px;
+}
+
+input {
+    width: 50px;
+    margin-bottom: 10px;
+    padding: 4px;
+    border: transparent;
+    border-radius: 5px;
+    background-color: rgba(255, 255, 255, 0.493)
+}
+
+
+.container{
+    display: flex;
+    justify-content: center;
+}
+.input_container{
+    display: flex;
+    font-size: larger;
+    /* background-color: red; */
+    justify-content: center;
+    gap: 10px;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+button {
+    width: 100px;
+    padding: 10px;
+    margin: 35px;
+    background-color: rgb(40, 90, 147);
+    color: rgb(255, 255, 255);
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: rgb(28, 61, 98);
+}
+
+button:active {
+    background-color: rgb(24, 54, 88);
+
+}
